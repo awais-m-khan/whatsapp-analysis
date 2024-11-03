@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WhatsApp Chat Analyzer</h1>
+    <input type="file" id="fileInput" accept=".txt">
+    <button onclick="analyzeChat()">Analyze</button>
+    <button onclick="downloadPDF()">Download PDF</button>
+    <div id="output"></div>
+    <script src="script.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script src="pdfmake.min.js"></script>
+</body>
+</html>
